@@ -1,0 +1,43 @@
+{
+  "name": "pos-back",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.33.0",
+    "@strapi/plugin-users-permissions": "5.33.0",
+    "@strapi/strapi": "5.33.0",
+    "better-sqlite3": "12.4.1",
+    "pg": "^8.16.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "f2d1f552-fcce-4c49-b61c-dd9f89be44c2",
+    "installId": "27a39ff7be3a5dde2f17f4f68fb257ad8fa6ffd6bc585a8bcaa71c054bd36bbb"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10"
+  }و
+"scripts": {
+  "start": "strapi start",
+  "develop": "strapi develop"
+}
+}

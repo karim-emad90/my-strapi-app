@@ -35,9 +35,5 @@
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.7.10"
-  }و
-"scripts": {
-  "start": "strapi start",
-  "develop": "strapi develop"
-}
+  }
 }
